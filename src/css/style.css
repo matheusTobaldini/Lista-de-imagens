@@ -22,6 +22,10 @@ main {
     position: relative;
 }
 
+.list-images .image img {
+    width: 100%;
+}
+
 .list-images .image .info {
     position: absolute;
     bottom: 45px;
