@@ -1,0 +1,40 @@
+body {
+    font-family: 'Public Sans', sans-serif;    
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.list-images .image{    
+    height: 432px;
+    width: 335px;
+    position: relative;
+}
+
+.list-images .image .info {
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+    color: #FFFFFF;
+}
+
+.list-images .image .info h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.list-images .image .info p {
+    font-size: 17px;
+    font-weight: 300;
+}
